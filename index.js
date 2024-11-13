@@ -28,27 +28,27 @@
 
 let pi = 3.142;
 let radius = 50;
-let area = pi*(radius*radius);
+let area = pi*(radius**2);
 console.log(area);
 
-var half = 0.5;
-var base = 20;
-var height = 30;
-var result = half*base*height;
+let half = 0.5;
+let base = 20;
+let height = 30;
+let result = half*base*height;
 console.log(result);
 
-var principal = 1000;
-var rate = 5
-var time = 25
-var hundred = 100
-var value = principal*rate*time/hundred
+let principal = 1000;
+let rate = 5
+let time = 25
+let hundred = 100
+let value = principal*rate*time/hundred
 console.log(value)
 
-var b = 10;
-var a = 2;
-var c = 1;
-var solution = -b+(Math.sqrt(b*b-4*a*c))/2*a
-var answer = -b-(Math.sqrt(b*b-4*a*c))/2*a
+let b = 10;
+let a = 2;
+let c = 1;
+let solution = (-b + Math.sqrt(b**2- 4*a*c)) / (2*a);
+let answer = (-b - Math.sqrt(b**2- 4*a*c)) / (2*a);
 console.log(solution)
 console.log(answer)
 
